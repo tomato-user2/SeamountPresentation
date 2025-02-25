@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>3 Slide Presentation with Video Backgrounds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Include Reveal.js core and theme styles -->
+  <link rel="stylesheet" href="dist/reveal.css">
+  <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+</head>
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+      <!-- Slide 1 with Video Background 1 -->
+      <section data-background-video="/videos/present2.mp4" data-background-color="#000000">
+        <div style="background-color: rgba(0,0,0,0.7); color: #fff; padding: 20px;">
+          <h2>Seamount detection on Bathymetric images</h2>
+          <p>Machine Learning with Tensorflow project</p>
+        </div>
+      </section>
+
+      <!-- Slide 2 with Video Background 2 -->
+      <section data-background-video="/videos/sonar1.mp4" data-background-color="#000000">
+        <div style="background-color: rgba(0,0,0,0.7); color: #fff; padding: 20px;">
+          <!-- <h2>Slide 2</h2> -->
+          <p>Bathymetric data is collected by ship...</p>
+        </div>
+      </section>
+
+      <!-- Slide 3 with Video Background 3 -->
+      <section data-background-video="/videos/satellite1.mp4" data-background-color="#000000">
+        <div style="background-color: rgba(0,0,0,0.7); color: #fff; padding: 20px;">
+          <!-- <h2>Slide 3</h2> -->
+          <p>...or satellite surveys. So far, it's mostly processed manually and subjectively.</p>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Include Reveal.js and its dependencies -->
+  <script src="dist/reveal.js"></script>
+  <script>
+    // Initialize Reveal.js with some basic options
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      center: true,
+      hash: true
+    });
+
+    // Debugging: Log when Reveal.js is fully initialized
+    Reveal.addEventListener('ready', function(event) {
+      console.log('Reveal.js is ready.');
+      // Find all slides with a video background
+      var videoSlides = document.querySelectorAll('[data-background-video]');
+      console.log('Found ' + videoSlides.length + ' slides with video backgrounds.');
+      videoSlides.forEach(function(slide, index) {
+        console.log('Slide ' + (index + 1) + ' details:', slide);
+        // Check if Reveal.js has injected the <video> element automatically
+        var videoElement = slide.querySelector('video');
+        if (videoElement) {
+          console.log('Injected video element in slide ' + (index + 1) + ':', videoElement);
+        } else {
+          console.warn('No video element injected for slide ' + (index + 1) + '. Check the video URL and data attributes.');
+        }
+      });
+    });
+
+    // Debugging: Log every slide change event
+    Reveal.addEventListener('slidechanged', function(event) {
+      console.log('Slide changed to: horizontal index ' + event.indexh + ', vertical index ' + event.indexv);
+    });
+  </script>
+</body>
+</html>
