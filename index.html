@@ -1,85 +1,130 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>3 Slide Presentation with Video Backgrounds</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Include Reveal.js core and theme styles -->
-  <link rel="stylesheet" href="dist/reveal.css">
-  <link rel="stylesheet" href="dist/theme/black.css" id="theme">
-</head>
-<body>
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<link rel="manifest" href='data:application/manifest+json,{"display": "standalone", "name": "deck"}' />
+		<title>deck</title>
 
-  <div class="reveal">
-    <div class="slides">
-      <!-- Slide 1 with Video Background (Loops) -->
-      <section data-background-video="videos/present2.mp4" 
-               data-background-video-muted 
-               data-background-video-loop 
-               data-background-color="#000000">
-        <div style="background-color: rgba(0,0,0,0.7); color: #fff; padding: 20px;">
-          <h2>Seamount detection on Bathymetric images</h2>
-          <p>Machine Learning with Tensorflow project</p>
-        </div>
-      </section>
 
-      <!-- Slide 2 with Video Background (No Loop) -->
-      <section data-background-video="videos/sonar1.mp4" 
-               data-background-video-muted 
-               data-background-color="#000000">
-        <div style="background-color: rgba(0,0,0,0.7); color: #fff; padding: 20px;">
-          <p>Bathymetric data is collected by ship...</p>
-        </div>
-      </section>
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
 
-      <!-- Slide 3 with Video Background (No Loop) -->
-      <section data-background-video="videos/satellite1.mp4" 
-               data-background-video-muted 
-               data-background-color="#000000">
-        <div style="background-color: rgba(0,0,0,0.7); color: #fff; padding: 20px; margin-top: -200px;">
-          <p>...or satellite surveys. So far, it's mostly processed manually and subjectively.</p>
-        </div>
-      </section>
-    </div>
-  </div>
 
-  <!-- Include Reveal.js and its dependencies -->
-  <script src="dist/reveal.js"></script>
-  <script>
-    // Initialize Reveal.js with autoplay settings
-    Reveal.initialize({
-      controls: true,
-      progress: true,
-      center: true,
-      hash: true
-    });
 
-    // Debugging: Log when Reveal.js is fully initialized
-    Reveal.addEventListener('ready', function(event) {
-      console.log('Reveal.js is ready.');
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-black-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="78c9275178e5aa74f1b21d83d1dcef5c" data-background-video="deck/3e173781ea22af364e845c4d715da8af.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/2887379/Duzy40Qi/present2_thumb_00001.jpg"><div class="sl-block" data-block-type="text" style="width: 878.105px; left: 45.189px; top: 189px; height: auto;" data-block-id="771feb7c5a695a1199c058d7c9f3210b"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;"><h3>Seamount detection on Bathymetric images</h3></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 249.207px; height: auto;" data-block-id="1f64515e859f7223efc3deb41b95bdc5"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 12;"><p><span style="color:#cccccc">Machine Learning with Tensorflow project</span></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 896.984px; height: 132.463px; left: 34.689px; top: 173.769px;" data-name="shape-84616e" data-block-id="2c3f215a8432bc1e8657f17ea79a98d8"><div class="sl-block-style" style="z-index: 10; opacity: 0.42;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-corner-radius="45px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 897 132"><rect width="896.984" height="132.463" rx="45" ry="45" class="shape-element" fill="rgb(0, 0, 0)"></rect></svg></div></div></div></section><section data-id="3124ca1d790dfc013289f99c696e1620" data-background-video="deck/f3d31cf73e6e66b599685756c733c4bc.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/2887379/V0hU-XIA/sonar1_thumb_00001.jpg" data-background-media-id="11967503" data-background-video-muted="true"><div class="sl-block" data-block-type="text" style="width: 878.105px; left: 40.9475px; top: 275.95px; height: auto;" data-block-id="0800980d6b1cd9346502e49a723a2a6d"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;"><h3>Bathymetric data is collected by ship...</h3></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 843.966px; height: 51px; left: 58.017px; top: 275.95px;" data-name="shape-84616e" data-block-id="5d08fdb9e8d0c162a6f81d23b9462c92"><div class="sl-block-style" style="z-index: 10; opacity: 0.42;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(0, 0, 0)" data-shape-stretch="true" style="z-index: 10;" data-shape-corner-radius="21px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 844 51"><rect width="843.966" height="51" rx="21" ry="21" class="shape-element" fill="rgb(0, 0, 0)"></rect></svg></div></div></div></section><section data-id="1e24184656e7ef6d55d37d52b77ea4f6" data-background-video="deck/03008682b9fc40265405d831430c849d.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/2887379/bFbDDVp4/satellite1_thumb_00001.jpg" data-background-media-id="11967502" data-background-video-muted="true" data-transition="fade" data-background-transition="fade"><div class="sl-block" data-block-type="text" style="width: 878.105px; left: 40.9475px; top: 26.7644px; height: auto;" data-block-id="23e9fa0d3f56a240562edeb300c7e7de" data-name="text-addb4e"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;"><h3><span style="color:#000000">...or satellite surveys.</span></h3></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 95.4543px; height: auto;" data-block-id="e79e094d57053c34bf8f0bb5bb3a0760" data-name="text-47d961"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 13;"><p><span style="color:#000000">So far, it's mostly processed manually and subjectively.</span></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 843.966px; height: 132.463px; left: 58.017px; top: 20.7685px;" data-name="shape-84616e" data-block-id="c663c8b6076d77583409a54df29db847"><div class="sl-block-style" style="z-index: 11; opacity: 0.42;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 11;" data-shape-corner-radius="45px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 844 132"><rect width="843.966" height="132.463" rx="45" ry="45" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 960px; height: 696.769px; left: 0px; top: 3.2315px;" data-name="shape-a271ac" data-block-id="dcc8b29f5e1fde1d401d976d43ef7696"><div class="sl-block-style" style="z-index: 10; opacity: 0;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 960 697"><rect width="960" height="696.769" rx="0" ry="0" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+</section><section data-background-video-muted="true" data-auto-animate="" data-id="a9318023eb657b605893fa62d49c5a7f" data-background-video="deck/cb797c93e1bc9e185ce2dcfd88bea99d.mp4" data-background-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/2887379/oyPO2wzL/sat_hi_freezed_thumb_00001.jpg" data-background-media-id="11967737" data-transition="none" data-background-transition="none"><div class="sl-block" data-block-type="text" style="width: 878.105px; left: 40.9475px; top: 26.7644px; height: auto;" data-name="text-addb4e" data-block-id="d1069c88ef5010f8234bd96d1fdc734c"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 12;"><h3><span style="color:#000000">...or satellite surveys.</span></h3></div></div>
+<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 95.4543px; height: auto;" data-name="text-47d961" data-block-id="07afdfcbf547432ab1dee9c598aabef9"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle" style="z-index: 13;"><p><span style="color:#000000">So far, it's mostly processed manually and subjectively.</span></p></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 843.966px; height: 132.463px; left: 58.017px; top: 20.7685px;" data-name="shape-84616e" data-block-id="74890923e96c25d613dfa45622bf1a4e"><div class="sl-block-style" style="z-index: 11; opacity: 0.42;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true" style="z-index: 11;" data-shape-corner-radius="45px"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 844 132"><rect width="843.966" height="132.463" rx="45" ry="45" class="shape-element" fill="rgb(255, 255, 255)"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="shape" style="width: 960px; height: 696.769px; left: 0px; top: 3.2315px;" data-name="shape-a271ac" data-block-id="3a8e94088b07e5cfd52c476f34402d72"><div class="sl-block-style" style="z-index: 10; opacity: 0;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 960 697"><rect width="960" height="696.769" rx="0" ry="0" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-0947ee" data-block-id="e703b2c72a52075a7ab01b9b17c24012"><div class="sl-block-content sl-block-group-content" style="transform-origin: 463.978px 545px 0px; z-index: 14;">
+<div class="sl-block" data-block-type="image" style="width: 231.936px; height: 213.487px; left: 322.956px; top: 486.513px; min-width: 1px; min-height: 1px;" data-name="image-c66a2f" data-block-id="c976ddc30dcfda1973fba9e9b6590507"><div class="sl-block-style" style="z-index: 21; opacity: 0.69;"><div class="sl-block-content" style="z-index: 21;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/34e7c3e813ac20aff72b8415836e90a2.png"></div></div></div>
+<div class="sl-block sl-block-group" data-block-type="group" data-name="group-a14cef" data-block-id="a00538eb16190a96b3ab8ae45bd0f26f"><div class="sl-block-content sl-block-group-content" style="transform-origin: 463.978px 545px 0px; z-index: 22;">
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 554.892px; top: 389.5px;" data-name="line-d8bc74" data-block-id="854474487aaae0c13375c8760bb36eaa"><div class="sl-block-content" data-line-x1="50.10799999999995" data-line-y1="0" data-line-x2="0" data-line-y2="310.5" data-line-color="rgb(152, 0, 0)" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 28;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="50.10799999999995" height="310.5" viewbox="0 0 50.10799999999995 310.5"><path class="line-element" fill="rgba(0,0,0,0)" stroke="rgb(152, 0, 0)" stroke-width="2" stroke-linecap="round" d="M50.108 0 L0 310.5"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M50.108 0 L0 310.5"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M50.108 0 L0 310.5"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 554.892px; top: 389.5px;" data-name="line-db8987" data-block-id="c3febe3e839bd55bd4d5eae394127262"><div class="sl-block-content" data-line-x1="50.10799999999995" data-line-y1="0" data-line-x2="0" data-line-y2="97.01299999999998" data-line-color="rgb(152, 0, 0)" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 29;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="50.10799999999995" height="97.01299999999998" viewbox="0 0 50.10799999999995 97.01299999999998"><path class="line-element" fill="rgba(0,0,0,0)" stroke="rgb(152, 0, 0)" stroke-width="2" stroke-linecap="round" d="M50.108 0 L0 97.013"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M50.108 0 L0 97.013"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M50.108 0 L0 97.013"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 322.956px; top: 389.5px;" data-name="line-ee6453" data-block-id="03b2713ddc878aeb2786bea7a7842b54"><div class="sl-block-content" data-line-x1="282.044" data-line-y1="0" data-line-x2="0" data-line-y2="97.01299999999998" data-line-color="rgb(152, 0, 0)" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 30;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="282.044" height="97.01299999999998" viewbox="0 0 282.044 97.01299999999998"><path class="line-element" fill="rgba(0,0,0,0)" stroke="rgb(152, 0, 0)" stroke-width="2" stroke-linecap="round" d="M282.044 0 L0 97.013"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M282.044 0 L0 97.013"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M282.044 0 L0 97.013"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 331px; top: 389.5px;" data-name="line-5cb17f" data-block-id="04d26cbffe06b8a8c99f3bd2b50ccff0"><div class="sl-block-content" data-line-x1="274" data-line-y1="0" data-line-x2="0" data-line-y2="310.5005" data-line-color="rgb(152, 0, 0)" data-line-width="2px" data-line-start-type="none" data-line-end-type="none" data-line-style="solid-rounded" style="z-index: 27;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="274" height="310.5005" viewbox="0 0 274 310.5005"><path class="line-element" fill="rgba(0,0,0,0)" stroke="rgb(152, 0, 0)" stroke-width="2" stroke-linecap="round" d="M274 0 L0 310.501"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M274 0 L0 310.501"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M274 0 L0 310.501"></path></svg></div></div>
+</div></div>
+</div></div></section><section data-auto-animate="" data-id="e7fdec3201f69cb0349b2659f3b2de9a" data-transition="fade" data-background-transition="fade">
 
-      // Find the first slide's video and attempt to play it
-      var firstSlide = document.querySelector('[data-background-video]');
-      if (firstSlide) {
-        var videoElement = firstSlide.querySelector('video');
-        if (videoElement) {
-          videoElement.muted = true; // Ensure it's muted for autoplay
-          videoElement.play().then(() => {
-            console.log('First slide video started playing.');
-          }).catch(error => {
-            console.warn('Autoplay prevented:', error);
-          });
-        } else {
-          console.warn('No video element found on the first slide.');
-        }
-      }
-    });
 
-    // Debugging: Log every slide change event
-    Reveal.addEventListener('slidechanged', function(event) {
-      console.log('Slide changed to: horizontal index ' + event.indexh + ', vertical index ' + event.indexv);
-    });
-  </script>
+<div class="sl-block" data-block-type="shape" style="width: 960px; height: 696.769px; left: 0px; top: 3.2315px;" data-name="shape-a271ac" data-block-id="837c90c8fa708c41b13143a55dd43ac7"><div class="sl-block-style" style="z-index: 10; opacity: 0;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 960 697"><rect width="960" height="696.769" rx="0" ry="0" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.938px; height: 358px; left: 500.956px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-c66a2f" data-block-id="c21499ccc5b6760a955848ccd88e7962"><div class="sl-block-style" style="z-index: 11; opacity: 0.69;"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/34e7c3e813ac20aff72b8415836e90a2.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.938px; height: 358px; left: 62.445px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-7c3cee" data-block-id="e2c35668db6ce3b6bf895e347d57922e"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/d6d90b29390bd7c7629528eab836117b.png"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 247px; left: 356.5px; top: 86.5px;" data-name="text-195fce" data-block-id="ecddacb637c242d8224b33df1a6672e4"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 13;"><p>it's that easy?</p></div></div></section><section data-transition="fade" data-background-transition="fade" data-auto-animate="" data-id="9e218b54d06b6b97f695c0211128a7d6">
 
-</body>
+
+<div class="sl-block" data-block-type="shape" style="width: 960px; height: 696.769px; left: 0px; top: 3.2315px;" data-name="shape-a271ac" data-block-id="e8d840fc1038d0052ae84a2334ac0aa7"><div class="sl-block-style" style="z-index: 10; opacity: 0;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 960 697"><rect width="960" height="696.769" rx="0" ry="0" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.938px; height: 358px; left: 500.956px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-c66a2f" data-block-id="cb500ff0279529e67b69892e4852d3cf"><div class="sl-block-style" style="z-index: 11; opacity: 0.69;"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/34e7c3e813ac20aff72b8415836e90a2.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.938px; height: 358px; left: 62.445px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-7c3cee" data-block-id="3009ec1b3eb53aab004c578a3cbb23c6"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/d6d90b29390bd7c7629528eab836117b.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.939px; height: 358px; left: 62.4445px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-da8cf6" data-block-id="92626c142403eaf914f20512e9af5014"><div class="sl-block-content" style="z-index: 13;" data-maintain-ar="false"><img class="" data-natural-width="486" data-natural-height="467" data-lazy-loaded="" data-src="deck/9b7bb94c6d7a109bf893d405c4792fba.PNG"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 87.5px;" data-name="text-a91b52" data-block-id="076f85c7d8ab397b1057bfcb9dd3d710"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><p>...or a little more challenging?</p></div></div></section><section data-auto-animate="" data-id="5f486f6f4435b71608dbf7312c6b9650" data-transition="fade" data-background-transition="fade">
+
+
+<div class="sl-block" data-block-type="shape" style="width: 960px; height: 696.769px; left: 0px; top: 3.2315px;" data-name="shape-a271ac" data-block-id="f34cf71846866adf45511b975b29fdfd"><div class="sl-block-style" style="z-index: 10; opacity: 0;"><div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="#000000" data-shape-stretch="true" style="z-index: 10;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveaspectratio="none" viewbox="0 0 960 697"><rect width="960" height="696.769" rx="0" ry="0" class="shape-element" fill="#000000"></rect></svg></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.938px; height: 358px; left: 500.956px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-c66a2f" data-block-id="277a13c4a8537bc40b655e687ac27a11"><div class="sl-block-style" style="z-index: 11; opacity: 0.69;"><div class="sl-block-content" style="z-index: 11;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/34e7c3e813ac20aff72b8415836e90a2.png"></div></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.938px; height: 358px; left: 62.445px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-7c3cee" data-block-id="9a47ea9973bce9e2a6d70aa5446d6f3a"><div class="sl-block-content" style="z-index: 12;"><img class="" data-natural-width="528" data-natural-height="486" data-lazy-loaded="" data-src="deck/d6d90b29390bd7c7629528eab836117b.png"></div></div>
+<div class="sl-block" data-block-type="image" style="width: 388.939px; height: 358px; left: 62.4445px; top: 171px; min-width: 1px; min-height: 1px;" data-name="image-da8cf6" data-block-id="35616aa864257402abc2c40bdef2e9b4"><div class="sl-block-content" style="z-index: 13;" data-maintain-ar="false"><img class="" data-natural-width="486" data-natural-height="467" data-lazy-loaded="" data-src="deck/9b7bb94c6d7a109bf893d405c4792fba.PNG"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 827.45px; left: 62.444px; top: 39.5px;" data-name="text-4c789a" data-block-id="028eaafffc47c6a248eb4c82ae6f6376"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;"><p>Binary Classification</p></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 334px; top: 94.5px;" data-name="line-824b9d" data-block-id="ebfe3fa21db403d6922ab606f4713c40"><div class="sl-block-content" data-line-x1="142.16950000000003" data-line-y1="0" data-line-x2="0" data-line-y2="55" data-line-color="rgb(152, 0, 0)" data-line-width="8px" data-line-start-type="none" data-line-end-type="line-arrow" data-line-style="solid-rounded" style="z-index: 15;" data-line-c="0"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="142.16950000000003" height="55" viewbox="0 0 142.16950000000003 55"><path class="line-element" fill="rgba(0,0,0,0)" stroke="rgb(152, 0, 0)" stroke-width="8" stroke-linecap="round" d="M142.17 0 L7.461 52.114"></path><path stroke="rgb(152, 0, 0)" stroke-width="8" d="M 26.325 64.116 L 3.043 53.823 L 13.336 30.541 L 3.043 53.823" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M142.17 0 L0 55"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M142.17 0 L0 55"></path></svg></div></div>
+<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 0px; min-height: 0px; left: 476.17px; top: 94.5px;" data-block-id="6120d73e64c4ca8973547bb15019ea7b" data-name="line-1dae77"><div class="sl-block-content" data-line-x1="0" data-line-y1="0" data-line-x2="154.83" data-line-y2="55" data-line-color="rgb(152, 0, 0)" data-line-width="8px" data-line-start-type="none" data-line-end-type="line-arrow" data-line-style="solid-rounded" style="z-index: 16;" data-line-c="0"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveaspectratio="xMidYMid" width="154.83" height="55" viewbox="0 0 154.83 55"><path class="line-element" fill="rgba(0,0,0,0)" stroke="rgb(152, 0, 0)" stroke-width="8" stroke-linecap="round" d="M0 0 L147.292 52.322"></path><path stroke="rgb(152, 0, 0)" stroke-width="8" d="M 140.819 30.921 L 151.755 53.908 L 128.768 64.844 L 151.755 53.908" stroke-linecap="round" stroke-linejoin="round" class="line-end"></path><path class="line-skeleton" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" d="M0 0 L154.83 55"></path><path class="line-hitarea" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="15" d="M0 0 L154.83 55"></path></svg></div></div>
+<div class="sl-block" data-block-type="image" style="width: 609.333px; height: 168px; left: 280.561px; top: 532.001px; min-width: 1px; min-height: 1px;" data-name="image-93fb2d" data-block-id="f40e564fe783eec455712c67ea020556"><div class="sl-block-content" style="z-index: 17;"><img class="" data-natural-width="914" data-natural-height="252" data-lazy-loaded="" data-src="deck/4995f50b121ab8bad5e52344743e97aa.PNG"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 228.45px; left: 52.111px; top: 596.501px;" data-block-id="0a267557b78f1dfef3f1957546a72e76" data-name="text-630c63"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 18;"><p>Results:</p></div></div></section><section data-id="82fbb5f0f22a81d1e14f9c209455acbd"><div class="sl-block" data-block-type="image" style="width: 960px; height: 476.131px; left: -1.42109e-14px; top: 111.935px; min-width: 1px; min-height: 1px;" data-name="image-2d1f92" data-block-id="9b79bf6be7ef0010b27fdca872ac4b7c"><div class="sl-block-content" style="z-index: 10;"><img class="" data-natural-width="1861" data-natural-height="923" data-lazy-loaded="" data-src="deck/8738e62d2f65cc1d92d04677cf183e23.PNG"></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 37.5px;" data-name="text-e86cdb" data-block-id="437379a87e33945742729c128b9f6cbe"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 11;"><p>Our Dataset</p></div></div></section><section data-id="630f0f1b88337676fb87d57e85966c8c" data-background-image="deck/6df4465c364b41dad94967d366e66574.png" data-background-opacity="0.75" data-background-position="0% 50%"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 138.5px;" data-name="text-e86cdb" data-block-id="b8f13cc4de3a78b5d17d9cb1ee60ceb6"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>Our Code</p></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 934px; height: 504px; left: 13px; top: 186px;" data-name="iframe-471190" data-block-id="d62bcf7fd271e2be2ffa5b3f7ccee8c2"><div class="sl-block-content" style="z-index: 11;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi" data-src="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock allow-presentation"></iframe></div></div></section><section data-background-image="deck/6df4465c364b41dad94967d366e66574.png" data-background-position="0% 50%" data-background-opacity="0.75" data-id="ff9431cfdb59200d053363bb8c2a8220"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 138.5px;" data-name="text-e86cdb" data-block-id="efb6375b455403065a5da35e6033b82a"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>Try it out</p></div></div>
+<div class="sl-block" data-block-type="iframe" style="width: 934px; height: 504px; left: 13px; top: 186px;" data-name="iframe-471190" data-block-id="5dcdd1bf1d272cf2a0924e314a3ca384"><div class="sl-block-content" style="z-index: 11;"><iframe allow="fullscreen; autoplay; accelerometer; geolocation; gyroscope; camera; encrypted-media; microphone; midi"></iframe></div></div></section><section data-background-position="0% 50%" data-background-opacity="0.75" data-id="270e6c49210a642a95a533c4210dcc03" data-background-image="deck/91f4bfc76616c25a9270958c0c1c5456.png"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 19.5px;" data-name="text-e86cdb" data-block-id="29c351b2fa045e27f4c1fdf49f69083b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>Object Detection Model</p></div></div>
+</section><section data-background-image="deck/91f4bfc76616c25a9270958c0c1c5456.png" data-background-position="0% 50%" data-background-opacity="0.75" data-id="a3d08d81c2fad3a6c2d19230cef7b0c3"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 19.5px;" data-name="text-e86cdb" data-block-id="eea4dba64e789243ddd0389cc7aa9cad"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>Future Work</p></div></div>
+</section><section data-id="1c0d1b74042a64dc7c74307f346c81f7"><div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 37.5px;" data-name="text-e86cdb" data-block-id="dce341a94c710a105035864110acb1a8"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 10;"><p>Future Work</p></div></div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":3359142,"slug":"deck","title":"deck","description":"","width":960,"height":700,"margin":0.05,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/0c066edcaf5357716f3c6d60b1c803e4/thumb.jpg?1740591741","view_count":0,"user":{"id":2887379,"username":"bobbobob","name":null,"description":null,"thumbnail_url":"https://www.gravatar.com/avatar/a78d236ee7cf7246735b0c4120eecb13?s=140\u0026d=https%3A%2F%2Fstatic.slid.es%2Fimages%2Fdefault-profile-picture.png","account_type":"lite","team_id":null,"settings":{"id":57501299,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":true,"default_deck_tag_id":null}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"black-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"shuffle":null,"should_loop":false,"share_notes":null,"slide_number":null,"slide_count":13,"rtl":false,"version":2,"collaborative":true,"deck_user_editor_limit":1,"data_updated_at":1740595462006,"font_typekit":null,"font_google":null,"time_limit":null,"navigation_mode":"default","upsizing_enabled":null,"language":"en","notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/reveal.js"></script>
+		<script src="lib/reveal-plugins.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				width: 960,
+				height: 700,
+				margin: 0.05,
+				
+
+				hash: true,
+				controls: true,
+				progress: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+				fragmentInURL: true,
+
+				autoSlide: 0,
+				autoSlideStoppable: true,
+
+				autoAnimateMatcher: SL.deck.AutoAnimate.matcher,
+
+				scrollActivationWidth: null,
+
+				center: false,
+				shuffle: false,
+				loop: false,
+				rtl: false,
+				navigationMode: "default",
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				highlight: {
+					escapeHTML: false
+				},
+
+				plugins: [ RevealZoom, RevealNotes, RevealMarkdown, RevealHighlight ]
+			});
+		</script>
+
+		
+
+
+	</body>
 </html>
